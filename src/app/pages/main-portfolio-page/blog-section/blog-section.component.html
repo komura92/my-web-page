@@ -1,1 +1,20 @@
-<p>blog-section works!</p>
+<p class="section__text__p1">{{ 'main.page.section.blog.pre.title' | translate }}</p>
+<h1 class="title">{{ 'main.page.section.blog.title' | translate }}</h1>
+
+<div class="blog-content-container">
+  <div class="blog-left-section">
+    <div class="text-container">
+      {{ 'main.page.section.blog.description' | translate }}
+    </div>
+    <div class="button-container">
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://damiankumor.blogspot.com/'">
+        {{ 'blog.articles.button' | translate }}
+      </button>
+    </div>
+  </div>
+  <div class="image-container">
+    <img src="./assets/images/blog.png" alt="Blog" class="blog-screen"/>
+  </div>
+</div>

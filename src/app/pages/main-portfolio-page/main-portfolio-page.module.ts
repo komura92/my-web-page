@@ -9,6 +9,7 @@ import {ProjectsSectionComponent} from "./projects-section/projects-section.comp
 import {ProfileIntroSectionComponent} from "./profile-intro-section/profile-intro-section.component";
 import {ContactSectionComponent} from "./contact-section/contact-section.component";
 import {AboutSectionComponent} from "./about-section/about-section.component";
+import {BlogSectionComponent} from "./blog-section/blog-section.component";
 
 @NgModule({
   declarations: [MainPortfolioPageComponent],
@@ -24,7 +25,8 @@ import {AboutSectionComponent} from "./about-section/about-section.component";
     ProjectsSectionComponent,
     ProfileIntroSectionComponent,
     ContactSectionComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    BlogSectionComponent
   ]
 })
 export class MainPortfolioPageModule { }

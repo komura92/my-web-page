@@ -1,0 +1,66 @@
+/*Blog*/
+
+p {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.blog-content-container {
+  padding-top: 5rem;
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+}
+
+.blog-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.blog-left-section, .image-container {
+  width: 50%;
+  align-content: center;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background: none;
+}
+
+.btn-color-2:hover {
+  cursor: pointer;
+  border: darkgrey 0.1rem solid;
+  background: whitesmoke;
+}
+
+@media screen and (max-width: 1250px) {
+  .blog-content-container {
+    flex-direction: column;
+  }
+
+  .blog-left-section, .image-container {
+    width: 100%;
+  }
+}
+
+.blog-screen {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  max-height: 600px;
+  max-width: 600px;
+}

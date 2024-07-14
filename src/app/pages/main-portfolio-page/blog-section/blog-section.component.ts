@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
-  selector: 'app-blog-section',
+  selector: 'blog-section',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './blog-section.component.html',
   styleUrl: './blog-section.component.css'
 })
 export class BlogSectionComponent {
-
 }

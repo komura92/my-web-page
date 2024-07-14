@@ -39,5 +39,10 @@
   "main.page.section.about.me.experience.subtitle": "5+ lat\nTworzenia aplikacji internetowych",
   "main.page.section.about.me.education.title": "Wyższe wykształcenie",
   "main.page.section.about.me.education.subtitle": "Inżynier informatyki stosowanej\nMagister zarządzania biznesem",
-  "main.page.section.about.me.description": "TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quo"
+  "main.page.section.about.me.description": "TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quo",
+
+
+  "main.page.section.blog.pre.title": "Naucz się czegoś",
+  "main.page.section.blog.title": "Blog",
+  "blog.articles.button": "Blog"
 }

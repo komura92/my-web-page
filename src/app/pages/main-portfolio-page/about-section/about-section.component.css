@@ -35,12 +35,6 @@ p {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
 .details-container {
   width: max-content;
   padding: 0.5rem;
@@ -57,15 +51,10 @@ p {
   height: 80%;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
-
 .text-container {
   width: 50%;
   align-content: center;
+  padding: 3rem;
 }
 
 .about-containers {
