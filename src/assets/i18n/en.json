@@ -1,0 +1,43 @@
+{
+  "navbar.logo.title": "Damian Kumór",
+  "navbar.about.me.title": "About me",
+  "navbar.experience.title": "Experience",
+  "navbar.blog.title": "Blog",
+  "navbar.projects.title": "Projects",
+  "navbar.contact.title": "Contact",
+  "my.greetings" : "Hello, I'm",
+  "my.name" : "Damian Kumór",
+  "my.job": "Java Software Engineer",
+
+  "main.page.section.experience.pre.title": "Explore my",
+  "main.page.section.experience.title": "Experience",
+  "experience.level.expert": "Experienced",
+  "experience.level.intermediate": "Intermediate",
+  "experience.level.basic": "Basic",
+
+  "others": "Others",
+  "skill.team.leading": "Team Leading",
+  "skill.communication": "Communication",
+  "skill.english": "English B2",
+  "skill.architecture": "System architecture",
+  "skill.optimization": "Optimization",
+  "skill.team.work": "Team Work",
+  "skill.analytical.skills": "Analytical skills",
+
+
+  "main.page.section.projects.pre.title": "Browse my",
+  "main.page.section.projects.title": "Projects",
+  "project.details.button": "Details",
+
+  "main.page.section.contact.title": "Contact",
+  "main.page.section.contact.post.title": "Just text me on",
+  "main.page.footer.copyrights": "All Rights Reserved.",
+
+  "main.page.section.about.me.pre.title": "Get To Know More",
+  "main.page.section.about.me.title": "About Me",
+  "main.page.section.about.me.experience.title": "Experience",
+  "main.page.section.about.me.experience.subtitle": "5+ years\nBackend Development",
+  "main.page.section.about.me.education.title": "Education",
+  "main.page.section.about.me.education.subtitle": "B.Sc. Bachelors Degree\nM.Sc. Masters Degree",
+  "main.page.section.about.me.description": "TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quo"
+}

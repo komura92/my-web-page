@@ -1,0 +1,36 @@
+#page-body {
+  padding: 0;
+  background: black;
+  height: 100vh;
+}
+
+#date-time-widget {
+  width: 25vw;
+}
+
+#clock-container {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+#calendar-container {
+  padding: 0 3rem 0 0;
+}
+
+#ninja-logo-container {
+  text-align: end;
+  width: 75vw;
+}
+
+.ninja-logo {
+  background-image: url("/assets/images/ninja-logo.png");
+  width: 25%;
+  height: auto;
+}
+
+#quotation-container {
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  align-content: center;
+}

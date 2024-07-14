@@ -1,0 +1,46 @@
+<div id="navbar">
+  <div id="desktop-navbar">
+    <div id="name-container">
+<!--      {{ 'navbar.logo.title' | translate }}-->
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">{{ 'navbar.about.me.title' | translate }}</a></li>
+      <li><a href="#experience">{{ 'navbar.experience.title' | translate }}</a></li>
+      <li><a href="#projects">{{ 'navbar.projects.title' | translate }}</a></li>
+      <li><a href="https://damiankumor.blogspot.com/">{{ 'navbar.blog.title' | translate }}</a></li>
+      <li><a href="#contact">{{ 'navbar.contact.title' | translate }}</a></li>
+    </ul>
+    <div class="related-urls">
+      <a href="https://github.com/komura92"><i class="pi pi-github navbar-icon"></i></a>
+      <a href="https://www.linkedin.com/in/damiankumor/"><i class="pi pi-linkedin navbar-icon"></i></a>
+    </div>
+    <div class="language-selector">
+      <language-selector/>
+    </div>
+  </div>
+  <div id="hamburger-navbar">
+    <div class="hamburger-top-bar">
+      <div class="hamburger-related-urls">
+        <a href="https://github.com/komura92"><i class="pi pi-github navbar-icon"></i></a>
+        <a href="https://www.linkedin.com/in/damiankumor/"><i class="pi pi-linkedin navbar-icon"></i></a>
+      </div>
+      <div class="hamburger-language-selector">
+        <language-selector/>
+      </div>
+      <div class="hamburger-icon-container">
+        <div class="hamburger-icon" (click)="toggleMenu()" [ngClass]="isOpen ? 'open' : ''">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="hamburger-nav-links" [ngClass]="isOpen ? 'open' : ''">
+      <li><a href="#about" (click)="toggleMenu()">{{ 'navbar.about.me.title' | translate }}</a></li>
+      <li><a href="#experience" (click)="toggleMenu()">{{ 'navbar.experience.title' | translate }}</a></li>
+      <li><a href="#projects" (click)="toggleMenu()">{{ 'navbar.projects.title' | translate }}</a></li>
+      <li><a href="https://damiankumor.blogspot.com/">{{ 'navbar.blog.title' | translate }}</a></li>
+      <li><a href="#contact" (click)="toggleMenu()">{{ 'navbar.contact.title' | translate }}</a></li>
+    </div>
+  </div>
+</div>

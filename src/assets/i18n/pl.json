@@ -1,0 +1,43 @@
+{
+  "navbar.logo.title": "Damian Kumór",
+  "navbar.about.me.title": "O mnie",
+  "navbar.experience.title": "Doświadczenie",
+  "navbar.blog.title": "Blog",
+  "navbar.projects.title": "Projekty",
+  "navbar.contact.title": "Kontakt",
+  "my.greetings" : "Cześć, nazywam się",
+  "my.name" : "Damian Kumór",
+  "my.job": "Inżynier oprogramowania Java",
+
+  "main.page.section.experience.pre.title": "Sprawdź moje",
+  "main.page.section.experience.title": "Doświadczenie",
+  "experience.level.expert": "Ekspert",
+  "experience.level.intermediate": "Zaawansowany",
+  "experience.level.basic": "Podstawowy",
+
+  "others": "Inne",
+  "skill.team.leading": "Prowadzenie zespołu",
+  "skill.communication": "Dobra komunikacja",
+  "skill.english": "Angielski B2",
+  "skill.architecture": "Architektura systemów",
+  "skill.optimization": "Optymalizacja rozwiązań",
+  "skill.team.work": "Praca w zespole",
+  "skill.analytical.skills": "Umiejętności analityczne",
+
+
+  "main.page.section.projects.pre.title": "Poznaj moje",
+  "main.page.section.projects.title": "Projekty",
+  "project.details.button": "Szczegóły",
+
+  "main.page.section.contact.title": "Kontakt",
+  "main.page.section.contact.post.title": "Napisz do mnie na",
+  "main.page.footer.copyrights": "Wszelkie prawa zastrzeżone.",
+
+  "main.page.section.about.me.pre.title": "Dowiedz się więcej",
+  "main.page.section.about.me.title": "O mnie",
+  "main.page.section.about.me.experience.title": "Doświadczenie",
+  "main.page.section.about.me.experience.subtitle": "5+ lat\nTworzenia aplikacji internetowych",
+  "main.page.section.about.me.education.title": "Wyższe wykształcenie",
+  "main.page.section.about.me.education.subtitle": "Inżynier informatyki stosowanej\nMagister zarządzania biznesem",
+  "main.page.section.about.me.description": "TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quo"
+}

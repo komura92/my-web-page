@@ -1,0 +1,16 @@
+#clock-container {
+  display: flex;
+  justify-content: center;
+}
+
+#clock {
+  font-family: "DejaVu Sans", serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.clock-seconds {
+  font-family: "DejaVu Sans", serif;
+  font-size: 2rem;
+  color: darkgrey;
+}

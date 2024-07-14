@@ -1,0 +1,64 @@
+.top-gradient-container {
+  width: 100%;
+}
+
+.top-gradient {
+  height: 60vh;
+  background: linear-gradient(180deg, #69768d 0%, #ffffff 100%);
+  margin-bottom: -60vh;
+}
+
+#page-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-intro-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+#profile-intro-section {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#experience {
+  padding-top: 10rem;
+}
+
+#about {
+  padding-top: 10rem;
+  width: 60vw;
+}
+
+#projects {
+  padding-top: 10rem;
+}
+
+@media screen and (max-width: 1250px) {
+  #about {
+    width: 80vw;
+  }
+
+  #profile-intro-section {
+    padding-top: 5rem;
+  }
+
+  .profile-intro-section-container {
+    display: block;
+  }
+}
+
+footer {
+  height: 60vh;
+  background: linear-gradient(180deg, #ffffff 0%, #69768d 100%);
+  align-content: end;
+}
+
+p {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 10rem;
+}
