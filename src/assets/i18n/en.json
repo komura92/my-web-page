@@ -45,5 +45,8 @@
   "main.page.section.blog.pre.title": "Learn on my",
   "main.page.section.blog.title": "Blog",
   "blog.articles.button": "Articles",
-  "main.page.section.blog.description": "TODO"
+  "main.page.section.blog.description": "TODO",
+
+  "not.found.page.work.in.progress.title": "Work in progress",
+  "not.found.page.back.button": "Back"
 }
