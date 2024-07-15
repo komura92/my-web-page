@@ -4,8 +4,6 @@ import {MainPortfolioPageModule} from "./pages/main-portfolio-page/main-portfoli
 import {
   NinjaMirrorScreenPageModule
 } from "./pages/ninja-mirror/ninja-mirror-screen-page/ninja-mirror-screen-page.module";
-import {NinjaMirrorProjectPageModule} from "./pages/ninja-mirror/ninja-mirror-project-page/ninja-mirror-project-page.module";
-import {MacropadPageModuleComponent} from "./pages/macropad-page/macropad-page-module.component";
 import {WorkInProgressPageModule} from "./pages/work-in-progress-page/work-in-progress-page.module";
 
 const routerOptions: ExtraOptions = {
