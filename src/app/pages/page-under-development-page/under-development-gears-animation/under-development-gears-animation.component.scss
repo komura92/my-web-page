@@ -1,0 +1,203 @@
+.origin-center {
+  transform-origin: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+a, h3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #DB6B86;
+}
+
+h3 {
+  width: 410px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  line-height: 1.4;
+
+  @media (max-width: 460px) {
+    width: auto;
+    font-size: 14px;
+  }
+}
+
+a {
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: 2px solid #DB6B86;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+  background-color: #EFDFED;
+
+  &:hover {
+    background-color: #DB6B86;
+    color: #fff;
+  }
+}
+
+.icon-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 0;
+
+  svg {
+    width: calc(25% - 20px);
+    padding: 10px;
+  }
+
+  &-services {
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 740px) {
+    svg {
+      width: calc(50% - 20px);
+    }
+  }
+
+  @media (max-width: 500px) {
+    svg {
+      width: calc(100% - 20px);
+    }
+  }
+}
+
+.icon-develop {
+
+  .gear-b {
+    animation: rotate-reverse 6s linear infinite;
+    transform-origin: 237px 87px;
+  }
+
+  .gear-s {
+    animation: rotate 12s linear infinite;
+    transform-origin: 218px 180px;
+  }
+
+  #XMLID_87_,
+  #XMLID_85_,
+  #XMLID_83_ {
+    animation: twinkle 3s ease-in-out infinite;
+  }
+
+  #XMLID_85_ {
+    animation-delay: .4s;
+  }
+
+  #XMLID_83_ {
+    animation-delay: .6s;
+  }
+
+  .line-t,
+  .line-m,
+  .line-b {
+    animation: shrink 1.8s ease-in-out infinite;
+    transform-origin: center;
+  }
+
+  .line-m {
+    animation-delay: .3s;
+  }
+
+  .line-b {
+    animation-delay: .6s;
+  }
+
+  .code {
+
+    &-letter_o {
+      animation: typingO 3s linear infinite;
+    }
+
+    &-letter_d {
+      animation: typingD 3s linear infinite;
+    }
+
+    &-letter_e {
+      animation: typingE 3s linear infinite;
+    }
+
+    @keyframes typingE {
+      20.1%, 80% {
+        fill: transparent;
+      }
+
+      20%, 80.1% {
+        fill: #fff;
+      }
+    }
+
+    @keyframes typingD {
+      30.1%, 70% {
+        fill: transparent;
+      }
+
+      30%, 70.1% {
+        fill: #fff;
+      }
+    }
+
+    @keyframes typingO {
+      40.1%, 60% {
+        fill: transparent;
+      }
+
+      40%, 60.1% {
+        fill: #fff;
+      }
+    }
+  }
+
+  .hover  {
+    animation-play-state: paused !important;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  &:hover {
+    .hover  {
+      animation-play-state: running !important;
+    }
+  }
+}
+
+
+@keyframes twinkle {
+  0%, 50%, 100% {
+    transform: scale(1);
+  }
+
+  25%, 75% {
+    transform: scale(1.6);
+  }
+}
+
+@keyframes shrink {
+  50% {
+    transform: scaleX(0.3);
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate-reverse {
+  to {
+    transform: rotate(-1turn);
+  }
+}

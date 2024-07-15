@@ -48,5 +48,8 @@
   "main.page.section.blog.description": "Czasami mam wewnętrzne pragnienie\nrealizacji jakiegoś projektu lub poznania\nnowego tematu.\n Blog jest moim notatnikiem.",
 
   "not.found.page.work.in.progress.title": "Prace w toku",
-  "not.found.page.back.button": "Powrót"
+  "not.found.page.back.button": "Powrót",
+
+  "page.under.development.title": "Prace nad stroną nie zostały ukończone",
+  "page.under.development.back.button.text": "Powrót"
 }

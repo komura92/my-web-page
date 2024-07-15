@@ -48,5 +48,8 @@
   "main.page.section.blog.description": "Sometimes I have a desire to\ncreate some project or learn new thing.\nThis blog is like my notepad.",
 
   "not.found.page.work.in.progress.title": "Work in progress",
-  "not.found.page.back.button": "Back"
+  "not.found.page.back.button": "Back",
+
+  "page.under.development.title": "Page under development",
+  "page.under.development.back.button.text": "Back"
 }
