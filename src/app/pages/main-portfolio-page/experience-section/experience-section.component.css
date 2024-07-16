@@ -1,5 +1,9 @@
 /*EXPERIENCE*/
 p {
+  text-align: start;
+}
+
+.section__text__p1 {
   text-align: center;
 }
 
