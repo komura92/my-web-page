@@ -7,19 +7,28 @@ p {
 .title {
   font-size: 2.5rem;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .icon {
   margin-top: 1rem;
-  height: 2rem;
+  height: 3.5rem;
 }
 
-.about-containers {
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+.article-container {
   display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  width: 18rem;
+  justify-content: start;
+  gap: 1rem;
 }
 
 .about-details-container {
@@ -53,7 +62,13 @@ p {
 .text-container {
   width: 50%;
   align-content: center;
-  padding: 3rem;
+  padding: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text-subcontainer {
+  max-width: 45rem;
 }
 
 .about-containers {
@@ -67,10 +82,11 @@ p {
     flex-direction: column;
   }
 
-  .about-containers {
+  .article-container {
     flex-direction: row;
     width: 100%;
     align-items: normal;
+    align-content: center;
   }
 
   .text-container {

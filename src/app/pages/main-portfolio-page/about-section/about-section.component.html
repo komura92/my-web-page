@@ -2,30 +2,36 @@
 <h1 class="title">{{ 'main.page.section.about.me.title' | translate }}</h1>
 <div class="section-container">
   <div class="about-details-container">
-    <div class="about-containers">
-      <div class="details-container">
+    <div class="article-container">
+      <article>
         <img
-          src="./assets/images/icons/experience.png"
+          src="assets/images/icons/experience-head.png"
           alt="Experience icon"
           class="icon"
         />
-        <h3>{{ 'main.page.section.about.me.experience.title' | translate }}</h3>
-        <p>{{ 'main.page.section.about.me.experience.subtitle' | translate }}</p>
-      </div>
-      <div class="details-container">
+        <div>
+          <h3>{{ 'about.coding.hours.title' | translate }}</h3>
+          <p>{{ 'about.coding.hours.subtitle' | translate }}</p>
+        </div>
+      </article>
+      <article>
         <img
-          src="./assets/images/icons/education.png"
-          alt="Education icon"
+          src="assets/images/icons/coffee.webp"
+          alt="Experience icon"
           class="icon"
         />
-        <h3>{{ 'main.page.section.about.me.education.title' | translate }}</h3>
-        <p>{{ 'main.page.section.about.me.education.subtitle' | translate }}</p>
-      </div>
+        <div>
+          <h3>{{ 'about.coffee.title' | translate }}</h3>
+          <p>{{ 'about.coffee.subtitle' | translate }}</p>
+        </div>
+      </article>
     </div>
     <div class="text-container">
-      <p>
-        {{ 'main.page.section.about.me.description' | translate }}
-      </p>
+      <div class="text-subcontainer">
+        <p>
+          {{ 'main.page.section.about.me.description' | translate }}
+        </p>
+      </div>
     </div>
   </div>
 </div>
