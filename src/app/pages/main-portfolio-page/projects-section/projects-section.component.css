@@ -13,6 +13,11 @@ p {
   padding-top: 5rem;
 }
 
+.projects-content {
+  display: flex;
+  justify-content: center;
+}
+
 .projects-container {
   display: flex;
   gap: 2rem;

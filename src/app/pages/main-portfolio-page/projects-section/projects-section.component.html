@@ -1,54 +1,55 @@
 <p class="section__text__p1">{{ 'main.page.section.projects.pre.title' | translate }}</p>
 <h1 class="title">{{ 'main.page.section.projects.title' | translate }}</h1>
-<div class="projects-container">
+<div class="projects-content">
+  <div class="projects-container">
 
-  <div class="project-container">
-    <div class="image-container">
-      <!--        todo project image change-->
-      <img src="assets/images/ninja-mirror.png" alt="Ninja mirror project" class="project-picture"/>
+    <div class="project-container">
+      <div class="image-container">
+        <img src="assets/images/ninja-mirror.png" alt="Ninja mirror project" class="project-picture"/>
+      </div>
+      <div class="title-container">
+        NinjaMirror
+      </div>
+      <div class="url">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='/ninja-mirror'">
+          {{ 'project.details.button' | translate }}
+        </button>
+      </div>
     </div>
-    <div class="title-container">
-      NinjaMirror
+
+    <div class="project-container">
+      <div class="image-container">
+        <img src="./assets/images/pns.png" alt="Play&Score logo" class="project-picture"/>
+      </div>
+      <div class="title-container">
+        Play&Score
+      </div>
+      <div class="url">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://playnscore.pl/'">
+          {{ 'project.details.button' | translate }}
+        </button>
+      </div>
     </div>
-    <div class="url">
-      <button
-        class="btn btn-color-2 project-btn"
-        onclick="location.href='/ninja-mirror'">
-        {{ 'project.details.button' | translate }}
-      </button>
+
+    <div class="project-container">
+      <div class="image-container">
+        <img src="./assets/images/macropad.png" alt="Macropad project" class="project-picture"/>
+      </div>
+      <div class="title-container">
+        Macropad
+      </div>
+      <div class="url">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='/macropad'">
+          {{ 'project.details.button' | translate }}
+        </button>
+      </div>
     </div>
+
   </div>
-
-  <div class="project-container">
-    <div class="image-container">
-      <img src="./assets/images/pns.png" alt="Play&Score logo" class="project-picture"/>
-    </div>
-    <div class="title-container">
-      Play&Score
-    </div>
-    <div class="url">
-      <button
-        class="btn btn-color-2 project-btn"
-        onclick="location.href='https://playnscore.pl/'">
-        {{ 'project.details.button' | translate }}
-      </button>
-    </div>
-  </div>
-
-  <div class="project-container">
-    <div class="image-container">
-      <img src="./assets/images/macropad.png" alt="Macropad project" class="project-picture"/>
-    </div>
-    <div class="title-container">
-      Macropad
-    </div>
-    <div class="url">
-      <button
-        class="btn btn-color-2 project-btn"
-        onclick="location.href='/macropad'">
-        {{ 'project.details.button' | translate }}
-      </button>
-    </div>
-  </div>
-
 </div>
