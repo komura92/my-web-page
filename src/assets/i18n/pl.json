@@ -59,5 +59,8 @@
   "ninja.mirror.final.effect.title": "Efekt końcowy",
   "ninja.mirror.software.title": "Oprogramowanie",
   "ninja.mirror.hardware.title": "Podzespoły",
-  "ninja.mirror.gallery.title":  "Galeria"
+  "ninja.mirror.gallery.title":  "Galeria",
+
+  "page.not.found.popup.title": "Strona pod tym adresem nie istnieje",
+  "page.not.found.button.title": "Powrót na Stronę główną"
 }

@@ -59,5 +59,8 @@
   "ninja.mirror.final.effect.title": "Final effect",
   "ninja.mirror.software.title": "Software",
   "ninja.mirror.hardware.title": "Hardware",
-  "ninja.mirror.gallery.title":  "Gallery"
+  "ninja.mirror.gallery.title":  "Gallery",
+
+  "page.not.found.popup.title": "Page not found",
+  "page.not.found.button.title": "Back to Home Page"
 }
