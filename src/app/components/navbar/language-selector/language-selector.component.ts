@@ -29,6 +29,8 @@ export class LanguageSelectorComponent {
       this.selectedLanguage = savedLanguage;
     }
     translate.setDefaultLang(this.selectedLanguage);
+    translate.onDefaultLangChange
+      .subscribe(val => this.selectedLanguage = val.lang);
   }
 
   public languageChanged(event: any): void {

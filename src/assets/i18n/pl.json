@@ -51,5 +51,13 @@
   "not.found.page.back.button": "Powrót",
 
   "page.under.development.title": "Prace nad stroną nie zostały ukończone",
-  "page.under.development.back.button.text": "Powrót"
+  "page.under.development.back.button.text": "Powrót",
+
+  "ninja.mirror.title": "Projekt Ninja Mirror",
+  "ninja.mirror.navigation.title": "Spis treści",
+  "ninja.mirror.general.design.title": "O projekcie",
+  "ninja.mirror.final.effect.title": "Efekt końcowy",
+  "ninja.mirror.software.title": "Oprogramowanie",
+  "ninja.mirror.hardware.title": "Podzespoły",
+  "ninja.mirror.gallery.title":  "Galeria"
 }

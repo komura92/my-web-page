@@ -51,5 +51,13 @@
   "not.found.page.back.button": "Back",
 
   "page.under.development.title": "Page under development",
-  "page.under.development.back.button.text": "Back"
+  "page.under.development.back.button.text": "Back",
+
+  "ninja.mirror.title": "Ninja Mirror project",
+  "ninja.mirror.navigation.title": "Navigation",
+  "ninja.mirror.general.design.title": "General design",
+  "ninja.mirror.final.effect.title": "Final effect",
+  "ninja.mirror.software.title": "Software",
+  "ninja.mirror.hardware.title": "Hardware",
+  "ninja.mirror.gallery.title":  "Gallery"
 }
