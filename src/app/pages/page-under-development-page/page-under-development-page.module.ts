@@ -5,11 +5,12 @@ import {PageUnderDevelopmentPageRoutingModule} from "./page-under-development-pa
 import {
   UnderDevelopmentGearsAnimationComponent
 } from "./under-development-gears-animation/under-development-gears-animation.component";
+import {StaticFooterComponent} from "../../components/static-footer/static-footer.component";
 
 
 @NgModule({
   declarations: [PageUnderDevelopmentPageComponent],
-  imports: [PageUnderDevelopmentPageRoutingModule, TranslateModule, UnderDevelopmentGearsAnimationComponent],
+  imports: [PageUnderDevelopmentPageRoutingModule, TranslateModule, UnderDevelopmentGearsAnimationComponent, StaticFooterComponent],
   exports: [PageUnderDevelopmentPageComponent]
 })
 export class PageUnderDevelopmentPageModule {

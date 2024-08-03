@@ -5,19 +5,21 @@ import {NinjaMirrorScreenPageRoutingModule} from "./ninja-mirror-screen-page-rou
 import {CalendarComponent} from "./widgets/calendar/calendar.component";
 import {ClockComponent} from "./widgets/clock/clock.component";
 import {QuotationComponent} from "./widgets/quotation/quotation.component";
+import {StaticFooterComponent} from "../../../components/static-footer/static-footer.component";
 
 @NgModule({
   declarations: [NinjaMirrorScreenPageComponent],
   exports: [
     NinjaMirrorScreenPageComponent
   ],
-  imports: [
-    NgClass,
-    NinjaMirrorScreenPageRoutingModule,
-    CalendarComponent,
-    ClockComponent,
-    NgOptimizedImage,
-    QuotationComponent
-  ]
+    imports: [
+        NgClass,
+        NinjaMirrorScreenPageRoutingModule,
+        CalendarComponent,
+        ClockComponent,
+        NgOptimizedImage,
+        QuotationComponent,
+        StaticFooterComponent
+    ]
 })
 export class NinjaMirrorScreenPageModule { }
