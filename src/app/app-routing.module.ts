@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: 'macropad', redirectTo: "page-under-development"},
   // { path: 'macropad', loadChildren: () => import('./pages/macropad-page/macropad-page-routing-module.component').then(() => MacropadPageModuleComponent)},
   { path: 'page-under-development', loadChildren: () => import('./pages/page-under-development-page/page-under-development-page-routing.module').then(() => PageUnderDevelopmentPageModule)},
-  { path: '**', loadChildren: () => import('./pages/not-found-page/not-found-page-routing.module').then(() => NotFoundPageModule)}
+  { path: 'not-found', loadChildren: () => import('./pages/not-found-page/not-found-page-routing.module').then(() => NotFoundPageModule)},
+  { path: '**', redirectTo: "not-found"}
 ];
 
 @NgModule({
