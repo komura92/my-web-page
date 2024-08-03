@@ -13,7 +13,6 @@ import {StaticFooterComponent} from "../../../components/static-footer/static-fo
     NinjaMirrorScreenPageComponent
   ],
     imports: [
-        NgClass,
         NinjaMirrorScreenPageRoutingModule,
         CalendarComponent,
         ClockComponent,

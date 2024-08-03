@@ -5,7 +5,7 @@ import {SimpleFooterComponent} from "../../components/simple-footer/simple-foote
 
 @NgModule({
   declarations: [MacropadPageComponent],
-    imports: [MacropadPageRoutingModuleComponent, SimpleFooterComponent],
+  imports: [MacropadPageRoutingModuleComponent, SimpleFooterComponent],
   exports: [MacropadPageComponent]
 })
 export class MacropadPageModuleComponent {
