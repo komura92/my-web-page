@@ -1,4 +1,10 @@
 {
+  "portfolio.page.title": "Damian Kumór - Java Software Engineer",
+  "not.found.page.title": "404 - Page not found",
+  "under.development.page.title": "Page under development",
+  "ninja.mirror.page.title": "Ninja Mirror project",
+  "ninja.mirror.ui.page.title": "Ninja Mirror UI",
+
   "navbar.logo.title": "Damian Kumór",
   "navbar.about.me.title": "About me",
   "navbar.experience.title": "Experience",
@@ -59,7 +65,24 @@
   "ninja.mirror.final.effect.title": "Final effect",
   "ninja.mirror.software.title": "Software",
   "ninja.mirror.hardware.title": "Hardware",
+  "ninja.mirror.recommendation.title": "Recommendations",
   "ninja.mirror.gallery.title":  "Gallery",
+
+  "ninja.mirror.software.section.description.button": "NinjaMirror UI",
+  "ninja.mirror.software.section.description": "I created simple page for this project before I found out about MagicMirror, which is an incredible time saver.\nMore information in the next section.",
+
+  "ninja.mirror.recommendation.section.description": "Before you decide to create your own mirror UI consider using MagicMirror open-source project. It has many interesting blocks and features to build your interface.",
+  "ninja.mirror.recommendation.section.magic.mirror.docs.button": "MagicMirror docs",
+  "ninja.mirror.recommendation.section.magic.mirror.modules.button": "Check available modules",
+
+  "ninja.mirror.page.hardware.monitor.title":  "Monitor",
+  "ninja.mirror.page.hardware.monitor.desc":  "Old one, to disassemble",
+  "ninja.mirror.page.hardware.raspberry.title": "Raspberry Pi",
+  "ninja.mirror.page.hardware.raspberry.desc": "Powerful microcontroller",
+  "ninja.mirror.page.hardware.frame.title":  "Frame",
+  "ninja.mirror.page.hardware.frame.desc":  "To keep things together",
+  "ninja.mirror.page.hardware.mirror.title": "One-way mirror",
+  "ninja.mirror.page.hardware.mirror.desc": "And the most important",
 
   "page.not.found.popup.title": "Page not found",
   "page.not.found.button.title": "Back to Home Page"

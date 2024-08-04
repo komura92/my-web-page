@@ -27,31 +27,45 @@
   <div class="content-title">
     {{ 'ninja.mirror.title' | translate }}
   </div>
+  <div class="image-container">
+    <img src="assets/images/ninja-mirror/ninja-mirror.png" alt="Ninja mirror project" class="project-picture"/>
+  </div>
   <div class="page-content-container">
     <div id="general-design" class="docs-section">
       <div class="section-title">
         {{ 'ninja.mirror.general.design.title' | translate }}
       </div>
+      <general-design-section/>
     </div>
     <div id="final-effect" class="docs-section">
       <div class="section-title">
         {{ 'ninja.mirror.final.effect.title' | translate }}
       </div>
+      <final-effect-section/>
     </div>
     <div id="software" class="docs-section">
       <div class="section-title">
         {{ 'ninja.mirror.software.title' | translate }}
       </div>
+      <software-section/>
+    </div>
+    <div id="recommendation" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.recommendation.title' | translate }}
+      </div>
+      <recommendation-section/>
     </div>
     <div id="hardware" class="docs-section">
       <div class="section-title">
         {{ 'ninja.mirror.hardware.title' | translate }}
       </div>
+      <hardware-section/>
     </div>
     <div id="gallery" class="docs-section">
       <div class="section-title">
         {{ 'ninja.mirror.gallery.title' | translate }}
       </div>
+      <gallery-section/>
     </div>
   </div>
 </div>
@@ -74,4 +88,4 @@
   </div>
 </div>
 
-<simple-footer/>
+<simple-footer class="docs-footer"/>

@@ -1,0 +1,19 @@
+
+
+.section-text {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.big-picture {
+  max-width: 45rem;
+  border-radius: 2rem;
+  width: 80vw;
+}

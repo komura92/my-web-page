@@ -16,6 +16,7 @@ export class NinjaMirrorProjectPageComponent {
     { translation: 'ninja.mirror.general.design.title', href: '#general-design'},
     { translation: 'ninja.mirror.final.effect.title', href: '#final-effect'},
     { translation: 'ninja.mirror.software.title', href: '#software'},
+    { translation: 'ninja.mirror.recommendation.title', href: '#recommendation'},
     { translation: 'ninja.mirror.hardware.title', href: '#hardware'},
     { translation: 'ninja.mirror.gallery.title', href: '#gallery'}
   ]

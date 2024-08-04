@@ -1,4 +1,10 @@
 {
+  "portfolio.page.title": "Damian Kumór - Inżynier oprogramowania Java",
+  "not.found.page.title": "404 - Nie znaleziono strony",
+  "under.development.page.title": "Strona w trakcie przygotowywania",
+  "ninja.mirror.page.title": "Projekt Ninja Mirror",
+  "ninja.mirror.ui.page.title": "Ninja Mirror UI",
+
   "navbar.logo.title": "Damian Kumór",
   "navbar.about.me.title": "O mnie",
   "navbar.experience.title": "Doświadczenie",
@@ -59,7 +65,24 @@
   "ninja.mirror.final.effect.title": "Efekt końcowy",
   "ninja.mirror.software.title": "Oprogramowanie",
   "ninja.mirror.hardware.title": "Podzespoły",
+  "ninja.mirror.recommendation.title": "Wskazówki",
   "ninja.mirror.gallery.title":  "Galeria",
+
+  "ninja.mirror.software.section.description.button": "NinjaMirror UI",
+  "ninja.mirror.software.section.description": "Stworzyłem prostą stronę jako interfejs zanim dowiedziałem się o projekcie MagicMirror, który pozwala oszczędzić mnóstwo czasu.\nWięcej informacji w następnej sekcji.",
+
+  "ninja.mirror.recommendation.section.description": "Zanim zdecydujesz się na stworzenie własnego UI, zastanów się nad wykorzystaniem projektu MagicMirror (open-source). Pozwala on na prostą konfigurację zaawansowanych modułów stworzonych przez społeczność.",
+  "ninja.mirror.recommendation.section.magic.mirror.docs.button": "Dokumentacja MagicMirror",
+  "ninja.mirror.recommendation.section.magic.mirror.modules.button": "Sprawdź dostępne moduły",
+
+  "ninja.mirror.page.hardware.monitor.title":  "Monitor",
+  "ninja.mirror.page.hardware.monitor.desc":  "Stary egzemplarz, do rozkręcenia",
+  "ninja.mirror.page.hardware.raspberry.title": "Raspberry Pi",
+  "ninja.mirror.page.hardware.raspberry.desc": "Mikrokontroler z potencjałem",
+  "ninja.mirror.page.hardware.frame.title":  "Rama",
+  "ninja.mirror.page.hardware.frame.desc":  "Aby utrzymać wszystko razem",
+  "ninja.mirror.page.hardware.mirror.title": "Lustro weneckie",
+  "ninja.mirror.page.hardware.mirror.desc": "I najważniejsze",
 
   "page.not.found.popup.title": "Strona pod tym adresem nie istnieje",
   "page.not.found.button.title": "Powrót na Stronę główną"
