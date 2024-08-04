@@ -14,7 +14,7 @@
   </div>
   <div class="hamburger-nav-links-container" [ngClass]="isOpen ? 'open' : ''">
     <li *ngFor="let menuOption of menuOptions">
-      <a href="ninja-mirror{{ menuOption.href }}"
+      <a href="projects/ninja-mirror{{ menuOption.href }}"
          (click)="toggleMenu()">
         {{ menuOption.translation | translate }}
       </a>
@@ -82,7 +82,7 @@
        [ngClass]="menuOption === activeMenuOption ? 'active' : ''"
        *ngFor="let menuOption of menuOptions"
        (click)="activeMenuOption = menuOption"
-       href="ninja-mirror{{ menuOption.href }}">
+       href="projects/ninja-mirror{{ menuOption.href }}">
       {{ menuOption.translation | translate }}
     </a>
   </div>

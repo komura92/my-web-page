@@ -24,6 +24,10 @@
   font-weight: 600;
 }
 
+.section-title:nth-child(1) {
+  padding: 3rem 0 6rem 0;
+}
+
 .docs-footer {
   margin-left: 17rem;
   display: block;
@@ -56,7 +60,7 @@
 }
 
 .docs-navigation-item {
-  transition: all 250ms ease;
+  transition: all 150ms ease;
   color: grey;
   text-decoration: none;
   padding: 0.5rem;
