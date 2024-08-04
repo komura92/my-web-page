@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'projects/ninja-mirror', loadChildren: () => import('./pages/ninja-mirror/ninja-mirror-project-page/ninja-mirror-project-page-routing.module').then(() => NinjaMirrorProjectPageModule)},
   { path: 'projects/ninja-mirror-ui', loadChildren: () => import('./pages/ninja-mirror/ninja-mirror-screen-page/ninja-mirror-screen-page-routing.module').then(() => NinjaMirrorScreenPageModule)},
   { path: 'projects/macropad', redirectTo: "page-under-development"},
-  // { path: 'macropad', loadChildren: () => import('./pages/macropad-page/macropad-page-routing-module.component').then(() => MacropadPageModuleComponent)},
+  // { path: 'projects/macropad', loadChildren: () => import('./pages/macropad-page/macropad-page-routing-module.component').then(() => MacropadPageModuleComponent)},
   { path: 'page-under-development', loadChildren: () => import('./pages/page-under-development-page/page-under-development-page-routing.module').then(() => PageUnderDevelopmentPageModule)},
   { path: 'not-found', loadChildren: () => import('./pages/not-found-page/not-found-page-routing.module').then(() => NotFoundPageModule)},
   { path: '**', redirectTo: "not-found"}
