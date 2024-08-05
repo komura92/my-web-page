@@ -102,10 +102,18 @@
 }
 
 .docs-section {
-  padding-top: 6vh;
+  padding-top: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.docs-section:last-child {
+  padding-bottom: 8rem;
+}
+
+.docs-section:first-child {
+  padding-top: 2rem;
 }
 
 .section-text {
@@ -154,6 +162,7 @@
   float: right;
   width: 100%;
   margin-top: -6rem;
+  z-index: 1;
 }
 
 .hamburger-top-bar {

@@ -37,6 +37,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   width: 100%;
+  padding: 2rem 0 2rem 0;
 }
 
 .text-section {
@@ -47,6 +48,7 @@
   max-width: 40rem;
   text-align: left;
   align-items: center;
+  min-width: 17rem;
 }
 
 @media screen and (max-width: 1250px) {

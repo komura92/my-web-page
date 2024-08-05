@@ -1,0 +1,24 @@
+.gallery-container {
+  box-shadow: 0 0 15px 0;
+}
+
+.gallery-item {
+  width: auto;
+  height: fit-content;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.item-wrapper {
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1250px) {
+  .item-wrapper {
+    height: 60vh;
+  }
+}
