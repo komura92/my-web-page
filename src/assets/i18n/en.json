@@ -11,8 +11,8 @@
   "navbar.blog.title": "Blog",
   "navbar.projects.title": "Projects",
   "navbar.contact.title": "Contact",
-  "my.greetings" : "Hello, I'm",
-  "my.name" : "Damian Kumór",
+  "my.greetings": "Hello, I'm",
+  "my.name": "Damian Kumór",
   "my.job": "Java Software Engineer",
 
   "main.page.section.experience.pre.title": "Explore my",
@@ -30,7 +30,6 @@
   "skill.team.work": "Team Work",
   "skill.analytical.skills": "Analytical skills",
 
-
   "main.page.section.projects.pre.title": "Browse my",
   "main.page.section.projects.title": "Projects",
   "project.details.button": "Details",
@@ -46,7 +45,6 @@
   "about.coding.hours.title": "10.000+",
   "about.coding.hours.subtitle": "hours of coding experience",
   "main.page.section.about.me.description": "I was born to solve problems. Thanks to my analytical skills, it's usually easy for me. Anything can be done with patience, time, coffee and piece of paper.",
-
 
   "main.page.section.blog.pre.title": "Learn on my",
   "main.page.section.blog.title": "Blog",
@@ -66,7 +64,20 @@
   "ninja.mirror.software.title": "Software",
   "ninja.mirror.hardware.title": "Hardware",
   "ninja.mirror.recommendation.title": "Recommendations",
-  "ninja.mirror.gallery.title":  "Gallery",
+  "ninja.mirror.gallery.title": "Gallery",
+
+  "ninja.mirror.general.design.description": "The goal of this project is to create a smart mirror with a modern design. Everyday functionalities such as a clock or calendar could not be missing here. The author also provided a weather module that can protect the user from forgetting an umbrella on that one unlucky day. Additionally, a module displaying motivational quotes at specific intervals and a resource monitor were added. Device can be connected to a regular 230V socket in the European standard. Frameless design and LED backlight make this product an eye-catcher.",
+  "ninja.mirror.general.design.widgets.title": "Widgets",
+  "ninja.mirror.general.design.widgets.time": "clock,",
+  "ninja.mirror.general.design.widgets.calendar": "calendar,",
+  "ninja.mirror.general.design.widgets.weather": "weather,",
+  "ninja.mirror.general.design.widgets.resources.monitor": "resources monitor,",
+  "ninja.mirror.general.design.widgets.quotation": "quotations.",
+  "ninja.mirror.general.design.features.title": "Features",
+  "ninja.mirror.general.design.features.power.supply": "230V power supply,",
+  "ninja.mirror.general.design.features.display": "19\" monitor,",
+  "ninja.mirror.general.design.features.frameless": "frameless,",
+  "ninja.mirror.general.design.features.led.backlight": "LED backlight.",
 
   "ninja.mirror.software.section.description.button": "NinjaMirror UI",
   "ninja.mirror.software.section.description": "I created simple page for this project before I found out about MagicMirror, which is an incredible time saver.\nMore information in the next section.",
@@ -75,12 +86,12 @@
   "ninja.mirror.recommendation.section.magic.mirror.docs.button": "MagicMirror docs",
   "ninja.mirror.recommendation.section.magic.mirror.modules.button": "Check available modules",
 
-  "ninja.mirror.page.hardware.monitor.title":  "Monitor",
-  "ninja.mirror.page.hardware.monitor.desc":  "Old one, to disassemble",
+  "ninja.mirror.page.hardware.monitor.title": "Monitor",
+  "ninja.mirror.page.hardware.monitor.desc": "Old one, to disassemble",
   "ninja.mirror.page.hardware.raspberry.title": "Raspberry Pi",
   "ninja.mirror.page.hardware.raspberry.desc": "Powerful microcontroller",
-  "ninja.mirror.page.hardware.frame.title":  "Frame",
-  "ninja.mirror.page.hardware.frame.desc":  "To keep things together",
+  "ninja.mirror.page.hardware.frame.title": "Frame",
+  "ninja.mirror.page.hardware.frame.desc": "To keep things together",
   "ninja.mirror.page.hardware.mirror.title": "One-way mirror",
   "ninja.mirror.page.hardware.mirror.desc": "And the most important",
 
