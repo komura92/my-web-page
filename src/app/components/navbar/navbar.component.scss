@@ -41,7 +41,7 @@ a {
   overflow: hidden;
   display: block;
   position: relative;
-  padding: 0.2em 0;
+  padding: 0.5rem 0;
 }
 
 .link:hover::after,
@@ -56,7 +56,7 @@ a:focus::after {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 0.08em;
+  height: 2px;
   background-color: whitesmoke;
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
