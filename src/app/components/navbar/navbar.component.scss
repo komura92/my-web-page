@@ -44,6 +44,15 @@ a {
   position: relative;
 }
 
+.link {
+  padding: 0.5rem 0;
+  transition: all 250ms ease;
+}
+
+.link:hover {
+  color: white;
+}
+
 .link:hover::after,
 a:focus::after {
   opacity: 1;
