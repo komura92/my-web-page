@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {DropdownModule} from "primeng/dropdown";
 import {NgIf} from "@angular/common";
 import {PrimeTemplate} from "primeng/api";
 import {TranslateModule, TranslateService} from "@ngx-translate/core";
 import {FormsModule} from "@angular/forms";
+import {Title} from "@angular/platform-browser";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'language-selector',
@@ -23,7 +25,9 @@ export class LanguageSelectorComponent {
   selectedLanguage: string = 'en'
   languages = ['pl', 'en'];
 
-  constructor(public translate: TranslateService) {
+  constructor(private translate: TranslateService,
+              private title: Title,
+              private route: ActivatedRoute) {
     const savedLanguage = localStorage.getItem('user-language');
     if (savedLanguage !== null) {
       this.selectedLanguage = savedLanguage;
@@ -35,6 +39,10 @@ export class LanguageSelectorComponent {
 
   public languageChanged(event: any): void {
     this.translate.setDefaultLang(event.value);
+    this.route.title.subscribe(titleTranslation => {
+      this.translate.get(titleTranslation!)
+        .subscribe(value => this.title.setTitle(value))
+    })
     localStorage.setItem('user-language', event.value);
   }
 }
