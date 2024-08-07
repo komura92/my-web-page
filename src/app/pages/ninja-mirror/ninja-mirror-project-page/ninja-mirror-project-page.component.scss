@@ -167,7 +167,7 @@
 
 .hamburger-top-bar {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -206,8 +206,9 @@
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: dimgrey;
+  background-color: whitesmoke;
   transition: all 250ms ease-in-out;
+  box-shadow: 0 0 1px black;
 }
 
 .hamburger-nav-links-container {

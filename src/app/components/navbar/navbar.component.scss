@@ -5,7 +5,6 @@
   justify-content: space-around;
   align-items: center;
   height: 12vh;
-  background: linear-gradient(180deg, #525d72 0%, #69768d 100%);
 }
 
 #name-container {
@@ -19,6 +18,8 @@
   font-size: 2rem;
   color: whitesmoke;
   transition: all 250ms ease;
+  text-shadow: 0 0 1px black;
+  padding: 0.1rem;
 }
 
 .navbar-icon:hover {
@@ -41,7 +42,6 @@ a {
   overflow: hidden;
   display: block;
   position: relative;
-  padding: 0.5rem 0;
 }
 
 .link:hover::after,
@@ -83,23 +83,29 @@ a:focus::after {
 
 
 /*HAMBURGER*/
+.bg-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  z-index:-1;
+}
 
 #hamburger-navbar {
   display: none;
-  position: relative;
+  position: fixed;
   float: right;
   width: 100%;
-  background: linear-gradient(180deg, #525d72 0%, #69768d 100%);
 }
 
 .hamburger-top-bar {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 3rem;
-  border-bottom: 2px solid lightgrey;
+  box-shadow: 0 0 15px -5px;
 }
 
 #hamburger-name-container {
@@ -142,8 +148,9 @@ a:focus::after {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: white;
+  background-color: whitesmoke;
   transition: all 250ms ease-in-out;
+  box-shadow: 0 0 1px black;
 }
 
 .hamburger-nav-links {
@@ -155,6 +162,7 @@ a:focus::after {
   max-height: 0;
   overflow: hidden;
   transition: all 250ms ease-in-out;
+  box-shadow: 0 0 15px -5px;
 }
 
 .hamburger-nav-links a {
