@@ -1,1 +1,95 @@
-<p>ninja-mirror-project-page works!</p>
+
+<div id="hamburger-navbar">
+  <div class="bg-blur"></div>
+  <div class="hamburger-top-bar">
+    <div class="hamburger-language-selector">
+      <language-selector/>
+    </div>
+    <div class="hamburger-icon-container">
+      <div class="hamburger-icon" (click)="toggleMenu()" [ngClass]="isOpen ? 'open' : ''">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="hamburger-nav-links-container" [ngClass]="isOpen ? 'open' : ''">
+    <li *ngFor="let menuOption of menuOptions">
+      <a href="projects/ninja-mirror{{ menuOption.href }}"
+         (click)="toggleMenu()">
+        {{ menuOption.translation | translate }}
+      </a>
+    </li>
+  </div>
+</div>
+
+<div class="top-gradient"></div>
+
+<div class="page-content">
+  <div class="content-title">
+    {{ 'ninja.mirror.title' | translate }}
+  </div>
+  <div class="image-container">
+    <img src="assets/images/ninja-mirror/ninja-mirror.png" alt="Ninja mirror project" class="project-picture"/>
+  </div>
+  <div class="page-content-container">
+    <div id="general-design" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.general.design.title' | translate }}
+      </div>
+      <general-design-section/>
+    </div>
+    <div id="final-effect" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.final.effect.title' | translate }}
+      </div>
+      <final-effect-section/>
+    </div>
+    <div id="software" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.software.title' | translate }}
+      </div>
+      <software-section/>
+    </div>
+    <div id="recommendation" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.recommendation.title' | translate }}
+      </div>
+      <recommendation-section/>
+    </div>
+    <div id="hardware" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.hardware.title' | translate }}
+      </div>
+      <hardware-section/>
+    </div>
+    <div id="gallery" class="docs-section">
+      <div class="section-title">
+        {{ 'ninja.mirror.gallery.title' | translate }}
+      </div>
+      <gallery-section/>
+    </div>
+  </div>
+</div>
+
+<div class="docs-navigation">
+  <div class="docs-navigation-language-selector">
+    <language-selector/>
+  </div>
+  <div class="docs-navigation-title">
+    {{ 'ninja.mirror.navigation.title' | translate }}
+  </div>
+  <div class="docs-navigation-content">
+    <a class="docs-navigation-item"
+       [ngClass]="menuOption === activeMenuOption ? 'active' : ''"
+       *ngFor="let menuOption of menuOptions"
+       (click)="activeMenuOption = menuOption"
+       href="projects/ninja-mirror{{ menuOption.href }}">
+      {{ menuOption.translation | translate }}
+    </a>
+  </div>
+</div>
+
+<simple-footer class="docs-footer"/>
+
+<div class="bottom-gradient"></div>

@@ -26,6 +26,7 @@ export class CalendarComponent implements OnInit {
     const firstDay = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0);
     const lastDay = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
 
+    console.log('nie jest źle')
     this.appendMonthBeforeDays(firstDay, currentDate);
     this.appendActualMonthDays(lastDay, currentDate);
     this.appendNextMonthDays(lastDay, currentDate);
@@ -49,9 +50,10 @@ export class CalendarComponent implements OnInit {
   }
 
   private appendMonthBeforeDays(firstDay: Date, currentDate: Date) {
-    for (let i = firstDay.getDay(); i > 0; i++) {
-      const prevDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0 - i + 1);
-      this.days.push(MonthDay.inactiveWithLabel(prevDate.getDay()));
+    let prevDate;
+    for (let i = firstDay.getDay(); i > 0; i--) {
+      prevDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0 - i + 1);
+      this.days.push(MonthDay.inactiveWithLabel(prevDate.getDate()));
     }
   }
 

@@ -1,11 +1,8 @@
 #page-body {
   padding: 0;
   background: black;
-  height: 100vh;
-}
-
-#date-time-widget {
-  width: 25vw;
+  height: 100svh;
+  overflow: hidden;
 }
 
 #clock-container {
@@ -23,8 +20,9 @@
 }
 
 .ninja-logo {
-  background-image: url("/assets/images/ninja-logo.png");
+  background-image: url("/assets/images/ninja-mirror/ninja-logo.png");
   width: 25%;
+  min-width: 6rem;
   height: auto;
 }
 

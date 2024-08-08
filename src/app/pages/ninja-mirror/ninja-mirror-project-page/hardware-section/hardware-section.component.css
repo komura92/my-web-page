@@ -1,0 +1,73 @@
+.hardware-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about-containers {
+  gap: 4rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.details-container {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  text-align: center;
+}
+
+.card-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.card-desc {
+  color: rgb(85, 85, 85);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  max-height: 35rem;
+}
+
+.hardware-picture {
+  max-width: 24rem;
+  width: 23vw;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .about-containers {
+    display: grid;
+    width: 70vw;
+  }
+
+  .hardware-picture {
+    max-width: 34rem;
+    width: 50vw;
+  }
+}

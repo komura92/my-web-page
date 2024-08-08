@@ -1,12 +1,18 @@
 {
+  "portfolio.page.title": "Damian Kumór - Inżynier oprogramowania Java",
+  "not.found.page.title": "404 - Nie znaleziono strony",
+  "under.development.page.title": "Strona w trakcie przygotowywania",
+  "ninja.mirror.page.title": "Projekt Ninja Mirror",
+  "ninja.mirror.ui.page.title": "Ninja Mirror UI",
+
   "navbar.logo.title": "Damian Kumór",
   "navbar.about.me.title": "O mnie",
   "navbar.experience.title": "Doświadczenie",
   "navbar.blog.title": "Blog",
   "navbar.projects.title": "Projekty",
   "navbar.contact.title": "Kontakt",
-  "my.greetings" : "Cześć, nazywam się",
-  "my.name" : "Damian Kumór",
+  "my.greetings": "Cześć, nazywam się",
+  "my.name": "Damian Kumór",
   "my.job": "Inżynier oprogramowania Java",
 
   "main.page.section.experience.pre.title": "Sprawdź moje",
@@ -51,5 +57,46 @@
   "not.found.page.back.button": "Powrót",
 
   "page.under.development.title": "Prace nad stroną nie zostały ukończone",
-  "page.under.development.back.button.text": "Powrót"
+  "page.under.development.back.button.text": "Powrót",
+
+  "ninja.mirror.title": "Projekt Ninja Mirror",
+  "ninja.mirror.navigation.title": "Spis treści",
+  "ninja.mirror.general.design.title": "O projekcie",
+  "ninja.mirror.final.effect.title": "Efekt końcowy",
+  "ninja.mirror.software.title": "Oprogramowanie",
+  "ninja.mirror.hardware.title": "Podzespoły",
+  "ninja.mirror.recommendation.title": "Wskazówki",
+  "ninja.mirror.gallery.title": "Galeria",
+
+  "ninja.mirror.general.design.description": "Celem tego projektu jest stworzenie inteligentnego lustra o nowoczesnym designie. Nie mogło tu zabraknąć oczywistych funkcjonalności codziennego użytku takich, jak zegar czy kalendarz. Twórca przewidział również moduł pogodowy, który może uchronić użytkownika przed zapomnieniem parasola w ten jeden pechowy dzień. Dodatkowo dodany został moduł wyświetlający w określonych odstępach czasu cytaty motywacyjne oraz monitor zasobów. Urządzenie można podłączyć do zwykłego gniazdka 230V w standardzie europejskim. Brak ramy oraz podświetlenie LED dodają produktowi nowoczesności.",
+  "ninja.mirror.general.design.widgets.title": "Funkcje",
+  "ninja.mirror.general.design.widgets.time": "zegar,",
+  "ninja.mirror.general.design.widgets.calendar": "kalendarz,",
+  "ninja.mirror.general.design.widgets.weather": "pogoda,",
+  "ninja.mirror.general.design.widgets.resources.monitor": "monitor zasobów,",
+  "ninja.mirror.general.design.widgets.quotation": "cytaty.",
+  "ninja.mirror.general.design.features.title": "Cechy",
+  "ninja.mirror.general.design.features.power.supply": "zasilanie 230V,",
+  "ninja.mirror.general.design.features.display": "monitor 19\",",
+  "ninja.mirror.general.design.features.frameless": "bezramowe,",
+  "ninja.mirror.general.design.features.led.backlight": "podświetlenie LED.",
+
+  "ninja.mirror.software.section.description.button": "NinjaMirror UI",
+  "ninja.mirror.software.section.description": "Stworzyłem prostą stronę jako interfejs zanim dowiedziałem się o projekcie MagicMirror, który pozwala oszczędzić mnóstwo czasu.\nWięcej informacji w następnej sekcji.",
+
+  "ninja.mirror.recommendation.section.description": "Zanim zdecydujesz się na stworzenie własnego UI, zastanów się nad wykorzystaniem projektu MagicMirror (open-source). Pozwala on na prostą konfigurację zaawansowanych modułów stworzonych przez społeczność.",
+  "ninja.mirror.recommendation.section.magic.mirror.docs.button": "Dokumentacja MagicMirror",
+  "ninja.mirror.recommendation.section.magic.mirror.modules.button": "Sprawdź dostępne moduły",
+
+  "ninja.mirror.page.hardware.monitor.title": "Monitor",
+  "ninja.mirror.page.hardware.monitor.desc": "Stary egzemplarz, do rozkręcenia",
+  "ninja.mirror.page.hardware.raspberry.title": "Raspberry Pi",
+  "ninja.mirror.page.hardware.raspberry.desc": "Mikrokontroler z potencjałem",
+  "ninja.mirror.page.hardware.frame.title": "Rama",
+  "ninja.mirror.page.hardware.frame.desc": "Aby utrzymać wszystko razem",
+  "ninja.mirror.page.hardware.mirror.title": "Lustro weneckie",
+  "ninja.mirror.page.hardware.mirror.desc": "I najważniejsze",
+
+  "page.not.found.popup.title": "Strona pod tym adresem nie istnieje",
+  "page.not.found.button.title": "Powrót na Stronę główną"
 }

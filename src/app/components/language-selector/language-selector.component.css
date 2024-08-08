@@ -1,0 +1,13 @@
+::ng-deep .p-dropdown .p-dropdown-trigger {
+  width: 1.5rem;
+}
+
+::ng-deep .p-dropdown,
+::ng-deep .p-dropdown-panel {
+  background: whitesmoke;
+}
+
+.flag {
+  border-radius: 20%;
+  border: 1px solid grey;
+}
