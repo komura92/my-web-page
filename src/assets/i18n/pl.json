@@ -98,5 +98,13 @@
   "ninja.mirror.page.hardware.mirror.desc": "I najważniejsze",
 
   "page.not.found.popup.title": "Strona pod tym adresem nie istnieje",
-  "page.not.found.button.title": "Powrót na Stronę główną"
+  "page.not.found.button.title": "Powrót na Stronę główną",
+
+  "macropad.project.page.title": "Projekt Macropad",
+  "macropad.page.title": "Projekt Macropad",
+  "macropad.features.title": "Możliwości",
+  "macropad.general.design.title":"O projekcie",
+  "macropad.installation.title": "Instalacja",
+  "macropad.future.plans.title":"Wkrótce",
+  "macropad.repositories.title": "Repozytoria"
 }

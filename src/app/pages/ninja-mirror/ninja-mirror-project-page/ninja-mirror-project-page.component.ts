@@ -1,4 +1,4 @@
-import {Component, OnInit, Renderer2} from '@angular/core';
+import {Component} from '@angular/core';
 import {MenuOptionModel} from "../../../components/docs-style-navigation/model/menu-option.model";
 
 @Component({

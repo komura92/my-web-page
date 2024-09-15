@@ -1,5 +1,48 @@
 <docs-style-navigation [menuOptions]="menuOptions" [rootUrl]="rootUrl"/>
 
-<!--TODO design implementation-->
+<div class="top-gradient"></div>
 
-<simple-footer/>
+<div class="page-content">
+  <div class="content-title">
+    {{ 'macropad.page.title' | translate }}
+  </div>
+  <div class="image-container">
+    <img src="assets/images/todo.png" alt="Ninja mirror project" class="project-picture"/>
+  </div>
+  <div class="page-content-container">
+    <div id="features" class="docs-section">
+      <div class="section-title">
+        {{ 'macropad.features.title' | translate }}
+      </div>
+      <macropad-features-section/>
+    </div>
+    <div id="general-design" class="docs-section">
+      <div class="section-title">
+        {{ 'macropad.general.design.title' | translate }}
+      </div>>
+      <macropad-general-design-section/>
+    </div>
+    <div id="installation" class="docs-section">
+      <div class="section-title">
+        {{ 'macropad.installation.title' | translate }}
+      </div>
+      <macropad-installation-section/>
+    </div>
+    <div id="future-plans" class="docs-section">
+      <div class="section-title">
+        {{ 'macropad.future.plans.title' | translate }}
+      </div>
+      <macropad-future-plans-section/>
+    </div>
+    <div id="repositories" class="docs-section">
+      <div class="section-title">
+        {{ 'macropad.repositories.title' | translate }}
+      </div>
+      <macropad-repositories-section/>
+    </div>
+  </div>
+</div>
+
+<simple-footer class="docs-footer"/>
+
+<div class="bottom-gradient"></div>
