@@ -1,0 +1,41 @@
+<div id="hamburger-navbar">
+  <div class="bg-blur"></div>
+  <div class="hamburger-top-bar">
+    <div class="hamburger-language-selector">
+      <language-selector/>
+    </div>
+    <div class="hamburger-icon-container">
+      <div class="hamburger-icon" (click)="toggleMenu()" [ngClass]="isOpen ? 'open' : ''">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="hamburger-nav-links-container" [ngClass]="isOpen ? 'open' : ''">
+    <li *ngFor="let menuOption of menuOptions">
+      <a href="{{rootUrl}}{{ menuOption.href }}"
+         (click)="toggleMenu()">
+        {{ menuOption.translation | translate }}
+      </a>
+    </li>
+  </div>
+</div>
+
+<div class="docs-navigation">
+  <div class="docs-navigation-language-selector">
+    <language-selector/>
+  </div>
+  <div class="docs-navigation-title">
+    {{ 'ninja.mirror.navigation.title' | translate }}
+  </div>
+  <div class="docs-navigation-content">
+    <a class="docs-navigation-item"
+       [ngClass]="menuOption === activeMenuOption ? 'active' : ''"
+       *ngFor="let menuOption of menuOptions"
+       (click)="activeMenuOption = menuOption"
+       href="{{rootUrl}}{{ menuOption.href }}">
+      {{ menuOption.translation | translate }}
+    </a>
+  </div>
+</div>

@@ -12,11 +12,12 @@ import {RecommendationSectionComponent} from "./recommendation-section/recommend
 import {GallerySectionComponent} from "./gallery-section/gallery-section.component";
 import {FinalEffectSectionComponent} from "./final-effect-section/final-effect-section.component";
 import {GeneralDesignSectionComponent} from "./general-design-section/general-design-section.component";
+import {DocsStyleNavigationComponent} from "../../../components/docs-style-navigation/docs-style-navigation.component";
 
 @NgModule({
   declarations: [NinjaMirrorProjectPageComponent],
   exports: [ NinjaMirrorProjectPageComponent ],
-  imports: [NinjaMirrorProjectPageRoutingModule, NgForOf, TranslateModule, NgClass, LanguageSelectorComponent, ContactSectionComponent, SimpleFooterComponent, SoftwareSectionComponent, HardwareSectionComponent, RecommendationSectionComponent, GallerySectionComponent, FinalEffectSectionComponent, GeneralDesignSectionComponent]
+    imports: [NinjaMirrorProjectPageRoutingModule, NgForOf, TranslateModule, NgClass, LanguageSelectorComponent, ContactSectionComponent, SimpleFooterComponent, SoftwareSectionComponent, HardwareSectionComponent, RecommendationSectionComponent, GallerySectionComponent, FinalEffectSectionComponent, GeneralDesignSectionComponent, DocsStyleNavigationComponent]
 })
 export class NinjaMirrorProjectPageModule {
 
