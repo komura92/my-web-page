@@ -1,1 +1,53 @@
-<p>macropad-repositories-section works!</p>
+<div class="projects-content">
+  <div class="projects-container">
+
+    <div class="project-container">
+      <div class="image-container">
+        <img src="assets/images/todo.png" alt="Server logo" class="project-picture"/>
+      </div>
+      <div class="title-container">
+        {{ 'macropad.repository.backend.title' | translate }}
+      </div>
+      <div class="url">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="window.open('https://github.com/komura92/macropad-sse-server', '_blank')">
+          <i class="pi pi-github navbar-icon"></i> GitHub
+        </button>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <div class="image-container">
+        <img src="./assets/images/todo.png" alt="Mobile app logo" class="project-picture"/>
+      </div>
+      <div class="title-container">
+        {{ 'macropad.repository.mobile.app.title' | translate }}
+      </div>
+      <div class="url">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="window.open('https://github.com/komura92/ninja_macropad_flutter', '_blank')">
+          <i class="pi pi-github navbar-icon"></i> GitHub
+        </button>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <div class="image-container">
+        <img src="./assets/images/todo.png" alt="Python driver logo" class="project-picture"/>
+      </div>
+      <div class="title-container">
+        {{ 'macropad.repository.pc.driver.title' | translate }}
+      </div>
+      <div class="url">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="window.open('https://github.com/komura92/macropad-pc-driver', '_blank')">
+          <i class="pi pi-github navbar-icon"></i> GitHub
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>

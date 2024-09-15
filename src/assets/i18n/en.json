@@ -122,5 +122,16 @@
   "macropad.installation.step.2.title": "Step 2: PC driver",
   "macropad.installation.step.2.description":  "Tool written in Python for executing actions",
   "macropad.installation.step.3.title": "Step 3: Mobile app",
-  "macropad.installation.step.3.description":  "Define actions you want to automate"
+  "macropad.installation.step.3.description":  "Define actions you want to automate",
+
+  "macropad.future.plans.bluetooth.title": "Bluetooth",
+  "macropad.future.plans.bluetooth.subtitle": "New connection channel",
+  "macropad.future.plans.docker.title": "Docker repository",
+  "macropad.future.plans.docker.subtitle": "Easier to run",
+  "macropad.future.plans.ui.bugs.title": "UI bugfixes",
+  "macropad.future.plans.ui.bugs.subtitle": "Improve user experience",
+
+  "macropad.repository.backend.title": "Event server",
+  "macropad.repository.mobile.app.title": "Mobile app",
+  "macropad.repository.pc.driver.title":  "PC driver"
 }

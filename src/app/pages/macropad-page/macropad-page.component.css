@@ -119,6 +119,10 @@
 }
 
 @media screen and (max-width: 1250px) {
+
+  .text-image-section-container-wrapper {
+    padding: 0;
+  }
   .text-image-section-container {
     flex-direction: column;
   }
