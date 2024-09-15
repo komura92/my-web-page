@@ -116,5 +116,13 @@
   "macropad.feature.safety.title":  "Bezpieczeństwo",
   "macropad.feature.safety.description": "Wszystkie dane pozostają na Twoim urządzeniu",
   "macropad.feature.open.source.title":  "Open-source",
-  "macropad.feature.open.source.description": "Nowa funkcjonalność? Naprawa błędu?\nDaj mi znać!"
+  "macropad.feature.open.source.description": "Nowa funkcjonalność? Naprawa błędu?\nDaj mi znać!",
+
+  "macropad.installation.description": "Proces instalacji jest opisany w tym wideo. Jeśli wolisz wersję tekstową - znajdziesz ją poniżej.",
+  "macropad.installation.step.1.title": "Krok 1: Serwer SSE",
+  "macropad.installation.step.1.description":  "Aplikacja serwerowa napisana w języku Java pozwalająca na komunikację pomiędzy Twoimi urządzeniami",
+  "macropad.installation.step.2.title": "Krok 2: Sterownik PC",
+  "macropad.installation.step.2.description":  "Narzędzie do wykonywania akcji stworzone w Pythonie",
+  "macropad.installation.step.3.title": "Krok 3: Aplikacja mobilna",
+  "macropad.installation.step.3.description":  "Zdefiniuj akcje, jakie chcesz zautomatyzować"
 }
