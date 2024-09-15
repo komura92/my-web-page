@@ -100,9 +100,19 @@
 
   "macropad.project.page.title": "Macropad project",
   "macropad.page.title": "Macropad project",
+  "macropad.project.description": "Macropad is an open-source tool designed to increase every day productivity thanks to routines automations.",
   "macropad.features.title": "Features",
   "macropad.general.design.title":"General design",
   "macropad.installation.title": "Installation",
   "macropad.future.plans.title":"Future plans",
-  "macropad.repositories.title": "Repositories"
+  "macropad.repositories.title": "Repositories",
+
+  "macropad.feature.customizable.title":  "Customizable",
+  "macropad.feature.customizable.description": "Full control of menu options, actions and icons",
+  "macropad.feature.interactive.title":  "Interactive",
+  "macropad.feature.interactive.description": "Active workspace switching automatically",
+  "macropad.feature.safety.title":  "Safety",
+  "macropad.feature.safety.description": "All data is stored locally",
+  "macropad.feature.open.source.title":  "Open-source",
+  "macropad.feature.open.source.description": "New feature suggestion? Bugfix?\nI'm here!"
 }
