@@ -123,8 +123,9 @@
   .text-image-section-container-wrapper {
     padding: 0;
   }
+
   .text-image-section-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .text-section, .image-container {

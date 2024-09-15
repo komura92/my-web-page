@@ -34,6 +34,10 @@
 
 @media screen and (max-width: 1250px) {
   .text-image-section-container {
+    flex-direction: column-reverse;
+  }
+
+  .text-image-section-container:nth-child(even) {
     flex-direction: column;
   }
 
