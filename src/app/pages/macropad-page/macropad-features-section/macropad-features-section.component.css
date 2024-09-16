@@ -47,9 +47,13 @@
   }
 }
 
+.image-container {
+  max-height: 25rem;
+}
+
 .text-section-screen {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 2rem;
-  max-width: 45rem;
+  max-height: 25rem;
 }

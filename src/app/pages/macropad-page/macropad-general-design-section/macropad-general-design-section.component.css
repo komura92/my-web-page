@@ -4,6 +4,12 @@
   width: 80vw;
 }
 
+.project-design-picture {
+  max-width: 60vw;
+  border-radius: 2rem;
+  width: 80vw;
+}
+
 .image-container {
   display: flex;
   justify-content: center;

@@ -139,3 +139,7 @@
   border-radius: 2rem;
   max-width: 45rem;
 }
+
+.p-4 {
+  padding: 4rem 0 4rem 0;
+}

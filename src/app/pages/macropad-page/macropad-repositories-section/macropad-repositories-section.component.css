@@ -51,6 +51,7 @@ p {
 
 .image-container {
   text-align: center;
+  height: 12rem;
 }
 
 .title-container, .url {
@@ -103,5 +104,9 @@ p {
   .projects-container {
     width: 85vw;
     align-items: center;
+  }
+
+  .image-container {
+    height: 16rem;
   }
 }
