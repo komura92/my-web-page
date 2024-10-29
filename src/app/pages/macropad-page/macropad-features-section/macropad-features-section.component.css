@@ -79,6 +79,8 @@
   gap: .5rem;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 .btn-color-2 {

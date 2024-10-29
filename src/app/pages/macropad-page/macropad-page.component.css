@@ -120,6 +120,7 @@ p {
   width: 80%;
   white-space: pre-wrap;
   max-width: 35rem;
+  align-items: center;
 }
 
 @media screen and (max-width: 1250px) {
