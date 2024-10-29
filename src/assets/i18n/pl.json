@@ -217,7 +217,7 @@
 
   "macropad.installation.mobile.android.configuration.title": "Konfiguracja aplikacji",
   "macropad.installation.mobile.android.configuration.menu.title": "Menu",
-  "macropad.installation.mobile.android.configuration.menu.desc":  "Możesz dowolnie konfigurować opcje dolnego menu (przetrzenie robocze).",
+  "macropad.installation.mobile.android.configuration.menu.desc":  "Możesz dowolnie konfigurować opcje dolnego menu (przetrzenie robocze). Po każdej zmianie zalecane jest ponowne uruchomienie aplikacji, aby działała poprawnie.",
   "macropad.installation.mobile.android.configuration.action.title": "Akcje",
   "macropad.installation.mobile.android.configuration.action.desc":  "Pełna konfiguracja jest dostępna również dla przycisków akcji. Twórz, edytuj, usuwaj lub zmieniaj kolejność Twoich akcji. W tym przypadku dodatkowo jako ikonę możesz wybrać zjęcie z galerii.",
   "macropad.installation.mobile.android.configuration.connection.url.title": "Połączenie z serwerem",

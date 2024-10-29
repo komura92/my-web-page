@@ -217,7 +217,7 @@
 
   "macropad.installation.mobile.android.configuration.title": "App config",
   "macropad.installation.mobile.android.configuration.menu.title": "Menu",
-  "macropad.installation.mobile.android.configuration.menu.desc":  "You can freely configure the lower menu options (workspaces).",
+  "macropad.installation.mobile.android.configuration.menu.desc":  "You can freely configure the lower menu options (workspaces). After each change, it is recommended to restart the application for it to work properly.",
   "macropad.installation.mobile.android.configuration.action.title": "Actions",
   "macropad.installation.mobile.android.configuration.action.desc":  "Full configuration is also available for action buttons. Create, edit, delete or change the order of your actions. In this case, you can also choose a photo from your gallery as an icon.",
   "macropad.installation.mobile.android.configuration.connection.url.title": "Server URL",
