@@ -25,9 +25,4 @@ import {
   styleUrl: './pc-driver-installation-guide.component.css'
 })
 export class PcDriverInstallationGuideComponent {
-
-  public onSectionCollapsed() {
-    //todo pass function here
-    console.log('betoniarka');
-  }
 }

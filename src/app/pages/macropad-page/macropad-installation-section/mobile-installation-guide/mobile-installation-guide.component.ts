@@ -23,9 +23,4 @@ import {
   styleUrl: './mobile-installation-guide.component.css'
 })
 export class MobileInstallationGuideComponent {
-
-  onSectionCollapsed() {
-    // todo
-    console.log("betoniarka");
-  }
 }

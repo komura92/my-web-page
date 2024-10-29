@@ -17,9 +17,4 @@ import {TranslateModule} from "@ngx-translate/core";
   styleUrl: './backend-sse-installation-guide.component.css'
 })
 export class BackendSseInstallationGuideComponent {
-
-  onSectionCollapsed() {
-    // todo call page sections positions recalculation (pass function from parent ?)
-    console.log('betaooniarka');
-  }
 }
