@@ -1,0 +1,35 @@
+.project-picture {
+  border-radius: 2rem;
+  max-width: min(70vw, 35rem);
+  max-height: 35rem;
+}
+
+.config-desc {
+  max-width: 55rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.subsection-title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.described-config {
+  padding: 1rem;
+}
+
+.container {
+   padding-bottom: 2rem;
+   padding-top: 4rem;
+ }
+
+.title-container {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}

@@ -1,0 +1,110 @@
+<p-panel [toggleable]="true" [collapsed]="true" toggler="header"
+         (onAfterToggle)="onSectionCollapsed()"
+         class="installation-section-panel">
+  <ng-template pTemplate="header">
+    <img
+      src="assets/images/macropad/docker_128x128.png"
+      alt="Docker icon"
+      class="avatar"
+    />
+    <b>{{ 'macropad.installation.backend.docker.title' | translate }}</b>
+  </ng-template>
+  <p class="title-container">{{ 'macropad.installation.backend.docker.prerequisites.title' | translate}}</p>
+  {{ 'macropad.installation.backend.docker.prerequisites.docker' | translate}}<br>
+  {{ 'macropad.installation.backend.docker.prerequisites.internet' | translate}}<br>
+  <br><br>
+  <p class="title-container">{{ 'macropad.installation.backend.docker.run.title' | translate}}</p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.pull' | translate}}
+    </p>
+    <code-snippet [code]="'docker run -d -p 8080:8080 --name macropad-sse-server komura92/macropad-sse-server:1.1.0'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.start' | translate}}
+    </p>
+    <code-snippet [code]="'docker container start macropad-sse-server'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.stop' | translate}}
+    </p>
+    <code-snippet [code]="'docker container stop macropad-sse-server'"/>
+  </div>
+  <swagger-ui-component/>
+  <p class="title-container">
+    {{ 'macropad.installation.backend.docker.troubleshooting' | translate}}
+  </p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.troubleshooting.logs' | translate}}
+    </p>
+    <code-snippet [code]="'docker logs -f macropad-sse-server'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.troubleshooting.container.list' | translate}}
+    </p>
+    <code-snippet [code]="'docker container ls'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.troubleshooting.image.list' | translate}}
+    </p>
+    <code-snippet [code]="'docker image ls'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.troubleshooting.container.remove' | translate}}
+    </p>
+    <code-snippet [code]="'docker rm macropad-sse-server'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.docker.troubleshooting.image.remove' | translate}}
+    </p>
+    <code-snippet [code]="'docker image rm macropad-sse-server'"/>
+  </div>
+</p-panel>
+
+
+<p-panel [toggleable]="true" [collapsed]="true" toggler="header"
+         (onAfterToggle)="onSectionCollapsed()"
+         class="installation-section-panel">
+  <ng-template pTemplate="header">
+    <img
+      src="assets/images/icons/java_128x128.png"
+      alt="Java icon"
+      class="avatar"
+    />
+    <b>{{ 'macropad.installation.backend.legacy.title' | translate }}</b>
+  </ng-template>
+  <p class="title-container">{{ 'macropad.installation.backend.legacy.prerequisites' | translate}}</p>
+  {{ 'macropad.installation.backend.legacy.prerequisites.java' | translate}}<br>
+  {{ 'macropad.installation.backend.legacy.prerequisites.jar' | translate}}<br>
+  <div class="url">
+    <button
+      class="btn btn-color-2 project-btn"
+      onclick="window.open('https://github.com/komura92/macropad-sse-server/releases', '_blank')">
+      <i class="pi pi-github navbar-icon"></i> GitHub
+    </button>
+  </div>
+  <p class="title-container">{{ 'macropad.installation.backend.legacy.run.title' | translate}}</p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.legacy.run' | translate}}
+    </p>
+    <code-snippet [code]="'java -jar macropad-sse-server.jar'"/>
+  </div>
+  <swagger-ui-component/>
+  <p class="title-container">
+    {{ 'macropad.installation.backend.legacy.extras.title' | translate}}
+  </p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.backend.legacy.run.custom.port' | translate}}
+    </p>
+    <code-snippet [code]="'java -jar macropad-sse-server.jar --server.port=6060'"/>
+  </div>
+</p-panel>

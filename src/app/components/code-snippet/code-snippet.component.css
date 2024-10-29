@@ -1,0 +1,41 @@
+code {
+  padding-left: 1rem;
+  white-space: nowrap;
+  user-select: text;
+}
+
+.code-container {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+  min-height: 4rem;
+  align-content: center;
+  overflow: hidden;
+}
+
+.copy-btn {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: top 0.3s ease-in-out;
+}
+
+.copy-btn:hover {
+  background-color: #45a049;
+}
+
+.code-container:hover .copy-btn {
+  top: 10px;
+}
+
+.code-wrapper {
+  max-width: 80px;
+}

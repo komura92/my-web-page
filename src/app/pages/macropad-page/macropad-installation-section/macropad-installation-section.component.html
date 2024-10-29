@@ -1,15 +1,16 @@
 <div class="text-image-section-container-wrapper">
-  <div class="text-image-section-container">
-    <div class="image-container">
-      <img src="./assets/images/todo.png" alt="Installation video" class="text-section-screen"/>
-    </div>
-    <div class="text-section">
-      <div class="text-container">
-        <p>{{ 'macropad.installation.description' | translate }}</p>
-      </div>
-    </div>
-  </div>
-  <div class="text-image-section-container">
+<!--  todo after creating yt video-->
+<!--  <div class="text-image-section-container">-->
+<!--    <div class="image-container">-->
+<!--      <img src="./assets/images/todo.png" alt="Installation video" class="text-section-screen"/>-->
+<!--    </div>-->
+<!--    <div class="text-section">-->
+<!--      <div class="text-container">-->
+<!--        <p>{{ 'macropad.installation.description' | translate }}</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+  <div class="text-image-section-container mobile-reversed">
     <div class="text-section">
       <div class="title-container">
         <p>{{ 'macropad.installation.step.1.title' | translate }}</p>
@@ -22,6 +23,7 @@
       <img src="./assets/images/macropad/server.png" alt="Step 1" class="text-section-screen"/>
     </div>
   </div>
+  <backend-sse-installation-guide class="installation-guide"/>
   <div class="text-image-section-container">
     <div class="image-container">
       <img src="./assets/images/macropad/client.png" alt="Step 2" class="text-section-screen"/>
@@ -35,7 +37,8 @@
       </div>
     </div>
   </div>
-  <div class="text-image-section-container">
+  <pc-driver-installation-guide class="installation-guide"/>
+  <div class="text-image-section-container mobile-reversed">
     <div class="text-section">
       <div class="title-container">
         <p>{{ 'macropad.installation.step.3.title' | translate }}</p>
@@ -48,4 +51,5 @@
       <img src="./assets/images/macropad/phone.png" alt="Step 3" class="text-section-screen"/>
     </div>
   </div>
+  <mobile-installation-guide class="installation-guide"/>
 </div>

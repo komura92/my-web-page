@@ -11,7 +11,8 @@
   justify-content: center;
   gap: 4rem;
   width: 80%;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
+  padding-top: 8rem;
 }
 
 .text-section {
@@ -22,6 +23,7 @@
   width: 80%;
   white-space: pre-wrap;
   max-width: 35rem;
+  align-self: center;
 }
 
 .title-container {
@@ -37,7 +39,7 @@
     flex-direction: column-reverse;
   }
 
-  .text-image-section-container:nth-child(even) {
+  .mobile-reversed {
     flex-direction: column;
   }
 
@@ -51,4 +53,9 @@
   height: auto;
   border-radius: 2rem;
   max-height: 25rem;
+}
+
+.installation-guide {
+  width: 100%;
+  padding-bottom: 8rem;
 }

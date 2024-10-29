@@ -1,0 +1,34 @@
+<p-panel [toggleable]="true" [collapsed]="true" toggler="header"
+         (onAfterToggle)="onSectionCollapsed()"
+         class="installation-section-panel">
+  <ng-template pTemplate="header">
+    <img
+      src="assets/images/icons/android_128x128.png"
+      alt="Android icon"
+      class="avatar"
+    />
+    <b>{{ 'macropad.installation.mobile.android.title' | translate }}</b>
+  </ng-template>
+
+  <p class="title-container">{{ 'macropad.installation.mobile.android.prerequisites.title' | translate}}</p>
+  {{ 'macropad.installation.mobile.android.prerequisites.phone' | translate}}<br>
+  {{ 'macropad.installation.mobile.android.prerequisites.internet' | translate}}<br>
+  <br><br>
+
+  <p class="title-container">{{ 'macropad.installation.mobile.android.play.store.title' | translate}}</p>
+  <p class="config-desc">{{ 'macropad.installation.mobile.android.play.store.desc' | translate}}</p>
+
+  <div class="image-container">
+    <a href="https://play.google.com/store/apps/details?id=com.itninja.flutter_ninja_macropad" target="blank">
+      <img src="{{ 'macropad.installation.mobile.android.play.store.button.img.url' | translate }}" alt="Get in Play Store"
+           class="play-store-button">
+    </a>
+  </div>
+
+  <div class="image-container">
+    <img src="assets/images/macropad/macropad-in-play-store.png" alt="Application in Play Store" class="project-picture"/>
+  </div>
+
+  <mobile-app-configuration-section/>
+
+</p-panel>

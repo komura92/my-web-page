@@ -1,3 +1,7 @@
+p {
+  max-width: 20rem;
+}
+
 .top-gradient {
   position: absolute;
   top: 0;
@@ -104,7 +108,7 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 8rem;
   width: 80%;
 }
 
@@ -126,6 +130,7 @@
 
   .text-image-section-container {
     flex-direction: column-reverse;
+    gap: 4rem;
   }
 
   .text-section, .image-container {

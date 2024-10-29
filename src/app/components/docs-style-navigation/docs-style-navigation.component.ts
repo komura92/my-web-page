@@ -42,6 +42,11 @@ export class DocsStyleNavigationComponent implements OnInit{
         .map(menuOption => document.getElementById(menuOption.href.substring(1))?.offsetTop!);
 
       this.renderer.listen(window, 'scroll', ($event) => {
+        // after docs content change (i.e. installation section toggle)
+        // active menu options was not tracked properly
+        this.sectionsOffsets = this.menuOptions
+          .map(menuOption => document.getElementById(menuOption.href.substring(1))?.offsetTop!);
+
         let firstItemOverNavbar = -1;
         for (let i = 0; i < this.sectionsOffsets.length; i++) {
           if (window.scrollY >= this.sectionsOffsets[i] - 2)
