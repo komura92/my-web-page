@@ -1,0 +1,61 @@
+.text-image-section-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-image-section-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 80%;
+  padding-bottom: 1rem;
+  padding-top: 8rem;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  white-space: pre-wrap;
+  max-width: 35rem;
+  align-self: center;
+}
+
+.title-container {
+  font-size: 1.5rem;
+}
+
+.text-container {
+  max-width: 20rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .text-image-section-container {
+    flex-direction: column-reverse;
+  }
+
+  .mobile-reversed {
+    flex-direction: column;
+  }
+
+  .text-section, .image-container {
+    width: 100%;
+  }
+}
+
+.text-section-screen {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  max-height: 25rem;
+}
+
+.installation-guide {
+  width: 100%;
+  padding-bottom: 8rem;
+}

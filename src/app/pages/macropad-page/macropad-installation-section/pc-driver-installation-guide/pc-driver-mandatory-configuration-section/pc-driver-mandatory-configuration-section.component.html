@@ -1,0 +1,28 @@
+<div class="container">
+  <p class="title-container">{{ 'macropad.installation.driver.mandatory.configuration.title' | translate }}</p>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.mandatory.configuration.server.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.mandatory.configuration.server.desc' | translate }}</p>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/server_conf.py'"/>
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="SERVER_CONFIG_CODE"/>
+    </div>
+  </div>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.mandatory.configuration.actions.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.mandatory.configuration.actions.desc' | translate }}</p>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/events_conf.py'" />
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="ACTIONS_CONFIG_CODE_EXAMPLE"/>
+    </div>
+    <div class="image-container">
+      <img src="assets/images/macropad/actions-config.png" alt="Mobile and driver actions corelation" class="project-picture"/>
+    </div>
+  </div>
+</div>

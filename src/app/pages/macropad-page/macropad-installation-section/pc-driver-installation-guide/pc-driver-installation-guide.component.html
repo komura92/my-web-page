@@ -1,0 +1,151 @@
+<p-panel [toggleable]="true" [collapsed]="true" toggler="header"
+         class="installation-section-panel">
+  <ng-template pTemplate="header">
+    <img
+      src="assets/images/icons/windows_128x128.png"
+      alt="Windows icon"
+      class="avatar"
+    />
+    <b>{{ 'macropad.installation.driver.windows.title' | translate }}</b>
+  </ng-template>
+  <p class="title-container">{{ 'macropad.installation.driver.windows.prerequisites.title' | translate }}</p>
+  {{ 'macropad.installation.driver.windows.prerequisites.optional.git' | translate }}<br>
+  {{ 'macropad.installation.driver.windows.prerequisites.python' | translate }}
+  <br><br>
+  <p style="max-width: 55rem;">{{ 'macropad.installation.driver.windows.nano.explanation' | translate }}</p><br>
+  <br><br>
+  <p class="title-container">{{ 'macropad.installation.driver.windows.run' | translate }}</p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.windows.git.clone' | translate }}
+    </p>
+    <code-snippet [code]="'git clone --depth 1 --branch 1.1.0 https://github.com/komura92/macropad-pc-driver'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.windows.alternative.zip' | translate }}
+    </p>
+  </div>
+  <div class="url">
+    <a
+      class="btn btn-color-2 project-btn"
+      href="https://github.com/komura92/macropad-pc-driver/tags"
+      target="_blank">
+      <i class="pi pi-github navbar-icon"></i> GitHub
+    </a>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.windows.pip.packages' | translate }}
+    </p>
+    <code-snippet [code]="'pip install -r requirements.txt'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.windows.python.run' | translate }}
+    </p>
+    <code-snippet [code]="'python main.py'"/>
+  </div>
+  <pc-driver-mandatory-configuration-section/>
+  <pc-driver-interactive-configuration-section/>
+</p-panel>
+
+<p-panel [toggleable]="true" [collapsed]="true" toggler="header"
+         class="installation-section-panel">
+  <ng-template pTemplate="header">
+    <img
+      src="assets/images/icons/linux_128x128.png"
+      alt="Linux icon"
+      class="avatar"
+    />
+    <b>{{ 'macropad.installation.driver.linux.venv.title' | translate }}</b>
+  </ng-template>
+  <p class="title-container">{{ 'macropad.installation.driver.linux.venv.prerequisites' | translate }}</p>
+  {{ 'macropad.installation.driver.linux.venv.prerequisites.python' | translate }}<br>
+  {{ 'macropad.installation.driver.linux.venv.prerequisites.optional.git' | translate }}<br>
+  <br><br>
+  <p class="title-container">{{ 'macropad.installation.driver.linux.venv.run' | translate }}</p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.venv.git.desc' | translate }}
+    </p>
+    <code-snippet [code]="'git clone --depth 1 --branch 1.1.0 https://github.com/komura92/macropad-pc-driver'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.venv.go.into.project.dir' | translate }}
+    </p>
+    <code-snippet [code]="'cd macropad-pc-driver'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.venv.install.python.venv.create' | translate }}
+    </p>
+    <code-snippet [code]="'python3 -m venv macropad-venv'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.venv.install.python.packages' | translate }}
+    </p>
+    <code-snippet [code]="'macropad-venv/bin/pip install -r requirements.txt'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.venv.display.problem' | translate }}
+    </p>
+    <p class="error-code">Xlib.error.DisplayConnectionError: Can't connect to display ":0": b'Authorization required, but no authorization protocol specified'</p>
+    <code-snippet [code]="'xhost +local:$USER'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.venv.python.run' | translate }}
+    </p>
+    <code-snippet [code]="'macropad-venv/bin/python main.py'"/>
+  </div>
+  <pc-driver-mandatory-configuration-section/>
+  <pc-driver-interactive-configuration-section/>
+</p-panel>
+
+<p-panel [toggleable]="true" [collapsed]="true" toggler="header"
+         class="installation-section-panel">
+  <ng-template pTemplate="header">
+    <img
+      src="assets/images/icons/linux_128x128.png"
+      alt="Linux icon"
+      class="avatar"
+    />
+    <b>{{ 'macropad.installation.driver.linux.title' | translate }}</b>
+  </ng-template>
+  <p class="title-container">{{ 'macropad.installation.driver.linux.prerequisites' | translate }}</p>
+  {{ 'macropad.installation.driver.linux.prerequisites.python' | translate }}<br>
+  {{ 'macropad.installation.driver.linux.prerequisites.optional.git' | translate }}<br>
+  <br><br>
+  <p class="title-container">{{ 'macropad.installation.driver.linux.run' | translate }}</p>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.git.desc' | translate }}
+    </p>
+    <code-snippet [code]="'git clone --depth 1 --branch 1.1.0 https://github.com/komura92/macropad-pc-driver'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.go.into.project.dir' | translate }}
+    </p>
+    <code-snippet [code]="'cd macropad-pc-driver'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.install.python.packages' | translate }}
+    </p>
+    <code-snippet [code]="'pip install -r requirements.txt'"/>
+  </div>
+  <div class="described-code">
+    <p class="m-0">
+      {{ 'macropad.installation.driver.linux.python.run' | translate }}
+    </p>
+    <code-snippet [code]="'python main.py'"/>
+  </div>
+  <pc-driver-mandatory-configuration-section/>
+  <pc-driver-interactive-configuration-section/>
+</p-panel>
+

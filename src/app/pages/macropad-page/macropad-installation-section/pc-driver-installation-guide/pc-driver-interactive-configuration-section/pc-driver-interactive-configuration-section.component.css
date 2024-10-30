@@ -1,0 +1,43 @@
+.container {
+  padding-bottom: 2rem;
+}
+
+.title-container {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.described-config {
+  padding: 1rem;
+}
+
+.config-title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.config-desc {
+  max-width: 55rem;
+}
+
+.code-snippet-container {
+  padding-top: 1rem;
+}
+
+.code-example {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: lightgray;
+  white-space: pre-wrap;
+}
+
+.project-picture {
+  max-width: min(35rem, 100%);
+  border-radius: 2rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}

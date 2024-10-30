@@ -1,0 +1,33 @@
+.config-desc {
+  max-width: 55rem;
+}
+
+.avatar {
+  margin-right: 1rem;
+  height: 2.5rem;
+}
+
+.project-picture {
+  max-width: 35rem;
+  border-radius: 2rem;
+  width: 80vw;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.container {
+  padding-bottom: 2rem;
+}
+
+.title-container {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.play-store-button {
+  max-width: 15rem;
+}

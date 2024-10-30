@@ -1,0 +1,67 @@
+<div class="container">
+  <p class="title-container">{{ 'macropad.installation.driver.interactive.configuration.title' | translate }}</p>
+  <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.desc' | translate }}</p>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.interactive.configuration.windows.enable.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.windows.enable.desc' | translate }}</p>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/driver_conf.py'"/>
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'ENABLE_WINDOW_MONITORING = True'"/>
+    </div>
+  </div>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.interactive.configuration.windows.print.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.windows.print.desc' | translate }}</p>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/driver_conf.py'"/>
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'PRINT_ACTIVE_WINDOW_NAME = True'"/>
+    </div>
+  </div>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.interactive.configuration.windows.config.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.windows.config.desc' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.windows.func.desc' | translate }}</p>
+    <p class="code-example">{{ FUNCTION_CODE_EXAMPLE }}</p>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/windows_config.py'"/>
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="EVENTS_CONFIG_CODE_EXAMPLE"/>
+    </div>
+    <div class="image-container">
+      <img src="assets/images/macropad/activities-config.png" alt="Activities corelation with menu identifiers" class="project-picture"/>
+    </div>
+  </div>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.interactive.configuration.target.device.print.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.target.device.print.desc' | translate }}</p>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/driver_conf.py'"/>
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'PRINT_AVAILABLE_DEVICES = True'"/>
+    </div>
+  </div>
+
+  <div class="described-config">
+    <p class="config-title">{{ 'macropad.installation.driver.interactive.configuration.target.device.selection.title' | translate }}</p>
+    <p class="config-desc">{{ 'macropad.installation.driver.interactive.configuration.target.device.selection.desc' | translate }}</p>
+    <a href="http://localhost:8080/sse/swagger-ui/index.html#/notification-controller/getMacropadsNames" target="_blank">
+      http://localhost:8080/sse/swagger-ui/index.html#/notification-controller/getMacropadsNames
+    </a>
+    <div class="code-snippet-container">
+      <code-snippet [code]="'nano config/driver_conf.py'"/>
+    </div>
+    <div class="code-snippet-container">
+      <code-snippet [code]="TARGET_DEVICE_CONFIG_CODE"/>
+    </div>
+  </div>
+</div>

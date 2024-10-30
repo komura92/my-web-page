@@ -1,0 +1,151 @@
+p {
+  max-width: 20rem;
+}
+
+.top-gradient {
+  position: absolute;
+  top: 0;
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(180deg, #69768d 0%, #ffffff 100%);
+  z-index: -1;
+}
+
+.bottom-gradient {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(180deg, #ffffff 0%, #69768d 100%);
+  margin-top: -60vh;
+}
+
+.page-content {
+  margin-left: 17rem;
+  min-height: 100vh;
+  transition: margin-left .4s cubic-bezier(.05,.74,.2,.99);
+}
+
+.page-content-container {
+  padding: 2rem;
+}
+
+.content-title {
+  padding: 4rem 0 4rem 0;
+  font-size: xx-large;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.section-title {
+  padding: 6rem 0 6rem 0;
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+}
+
+.section-title:nth-child(1) {
+  padding: 3rem 0 6rem 0;
+}
+
+.docs-footer {
+  margin-left: 17rem;
+  display: block;
+  color: white;
+}
+
+.docs-section {
+  padding-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.docs-section:last-child {
+  padding-bottom: 8rem;
+}
+
+.docs-section:first-child {
+  padding-top: 2rem;
+}
+
+.section-text {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.project-picture {
+  max-width: 35rem;
+  border-radius: 2rem;
+  width: 80vw;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .page-content {
+    margin-left: 0;
+    margin-top: 6rem;
+  }
+
+  .docs-footer {
+    margin-left: 0;
+  }
+}
+
+.text-image-section-container-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.text-image-section-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 8rem;
+  width: 80%;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  width: 80%;
+  white-space: pre-wrap;
+  max-width: 35rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .text-image-section-container-wrapper {
+    padding: 0;
+  }
+
+  .text-image-section-container {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+  .text-section, .image-container {
+    width: 100%;
+  }
+}
+
+.text-section-screen {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  max-width: 45rem;
+}
+
+.p-4 {
+  padding: 4rem 0 4rem 0;
+}
